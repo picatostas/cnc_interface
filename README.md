@@ -1,7 +1,7 @@
 # ros_cnc_interface
 ROS node to interface cnc machines using GRBL as GCODE interpreter.
 
-Author : Pablo Cost
+Author : Pablo Costas Franco
 
 This project is based on https://github.com/openautomation/ROS-GRBL
 
