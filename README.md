@@ -1,4 +1,4 @@
-# ros_cnc_interface
+# cnc_interface
 ROS node to interface cnc machines using GRBL as GCODE interpreter.
 
 Author : Pablo Costas Franco
