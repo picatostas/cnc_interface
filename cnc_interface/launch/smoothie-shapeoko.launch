@@ -1,0 +1,21 @@
+  <launch>
+    <!-- cnc_interface node-->
+    <node  name="cnc_interface"  pkg="cnc_interface" type="cnc_interface.py">z
+      <!--Serial Port parameters-->
+      <param name="baudrate"     type="double" value="115200" />
+      <param name="port"         type="string" value="/dev/ttyACM0"/>
+      <!--Limit values   -->
+      <param name="acceleration" type="int"    value="1000" /> 
+      <param name="x_max" type="int" value="450" />  
+      <param name="y_max" type="int" value="550" />  
+      <param name="z_max" type="int" value="100" /> 
+      <param name="default_speed" type="int" value="1000" /> 
+      <param name="x_max_speed"   type="int" value="100" />  
+      <param name="y_max_speed"   type="int" value="100" />
+      <param name="z_max_speed"   type="int" value="100" />    
+      <!--axis steps values-->
+      <param name="x_steps_mm" type="int" value="2134" />  
+      <param name="y_steps_mm" type="int" value="2134" />
+      <param name="z_steps_mm" type="int" value="5120" />
+    </node>
+  </launch>
