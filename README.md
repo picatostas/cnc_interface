@@ -28,6 +28,6 @@ An example has been included for interfacing a Shapeoko cnc controlled by a Smoo
 Note that for operating the serial port, first you will have to locate the serial port under `/dev/tty*`. Before running the node, 
 the user has to be granted with permissions to operate the port. ` sudo chmod 0777 /dev/tty<whatever>` 
 
-Once cloned, grant execute permisions to the file cnc_interace.py in `scripts` with `chmod +x scripts/cnc_interface.py` or the node wont launch.
+Once cloned, grant check that the file cnc_interace.py in `scripts` has excute permisions, otherwise set them with `chmod +x scripts/cnc_interface.py` or the node wont launch.
 
 Once the node is launched the machine will start the homing procedure, so keep in mind.
