@@ -1,6 +1,6 @@
   <launch>
     <!-- cnc_interface node-->
-    <node  name="cnc_interface"  pkg="cnc_interface" type="cnc_interface.py">z
+    <node  name="cnc_interface"  pkg="cnc_interface" type="cnc_interface.py">
       <!--Serial Port parameters-->
       <param name="baudrate"     type="double" value="115200" />
       <param name="port"         type="string" value="/dev/ttyACM0"/>
