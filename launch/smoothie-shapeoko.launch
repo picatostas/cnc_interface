@@ -4,16 +4,18 @@
       <!--Serial Port parameters-->
       <param name="baudrate"     type="double" value="115200" />
       <param name="port"         type="string" value="/dev/ttyACM0"/>
-      <!--Limit values   -->
+      <!--Axis acceleration values in mm/s^2  -->
       <param name="acceleration" type="int"    value="1000" /> 
+      <!--Workable volume in mm  -->
       <param name="x_max" type="int" value="450" />  
       <param name="y_max" type="int" value="550" />  
       <param name="z_max" type="int" value="100" /> 
+      <!-- Speed values in mm/min -->
       <param name="default_speed" type="int" value="1000" /> 
       <param name="x_max_speed"   type="int" value="100" />  
       <param name="y_max_speed"   type="int" value="100" />
       <param name="z_max_speed"   type="int" value="100" />    
-      <!--axis steps values-->
+      <!--axis steps values in steps/mm -->
       <param name="x_steps_mm" type="int" value="2134" />  
       <param name="y_steps_mm" type="int" value="2134" />
       <param name="z_steps_mm" type="int" value="5120" />
